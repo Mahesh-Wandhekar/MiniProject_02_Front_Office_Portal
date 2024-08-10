@@ -1,0 +1,31 @@
+spring:
+  datasource:
+    driver-class-name: oracle.jdbc.driver.OracleDriver
+    url: jdbc:oracle:thin:@localhost:1521:ORCL
+    username: system
+    password: nareshit
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+
+  
+
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: maheshwad123@gmail.com
+    password: timp oyli nybo zvme
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+            
+            
+ 
+
+  
